@@ -1,0 +1,25 @@
+{
+  "name": "Rubem Oliota front",
+  "description": "Extra frontend for challenger letscode",
+  "homepage": "https://front-lets-code.herokuapp.com/",
+  "keywords": [
+    "css",
+    "js",
+    "less",
+    "responsive",
+    "back-end",
+    "template",
+    "theme",
+    "web",
+    "admin"
+  ],
+  "authors": [
+    {
+      "name": "Rubem Oliota"
+    }
+  ],
+  "license": "Oliota",
+  "support": {
+    "issues": "https://oliota.com"
+  }
+}

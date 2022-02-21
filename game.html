@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LetsCode | Game</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="/plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="/dist/css/adminlte.min.css">
+</head>
+<body  >
+<div class="wrapper">
+ 
+ 
+
+  <!-- Content Wrapper. Contains page content -->
+  <div  >
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col text-center">
+            <h1>LetsCode</h1>
+          </div>
+          <div class="col-sm-1">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item active"><a href="/index.html">Logout</a></li> 
+            </ol>
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+      
+       <div class="row">
+        <div class="col-md-6">
+          <!-- general form elements -->
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title">Game <span id="ended"></span> 
+               
+              </h3>
+            </div>
+            <!-- /.card-header -->
+            <!-- form start -->
+            <form id="form-game">
+              <div class="card-body" >
+                <div class="row">
+                  <div class="col"> 
+                      <label for="filmOne">Film one</label>
+                      <input type="text" class="form-control" id="filmOne" placeholder="Enter a film" required> 
+                   
+                  </div>
+                  <div class="col"> 
+                      <label for="filmTwo">Film two</label>
+                      <input type="text" class="form-control" id="filmTwo" placeholder="Enter another filme" required> 
+                  </div>
+                </div>
+                 
+              </div>
+              <!-- /.card-body -->
+
+              <div class="card-footer">
+                <button type="submit" class="btn btn-primary">Insert film</button>
+                <button type="button" class="btn btn-primary" id="finish">Finish game</button>
+              </div>
+            </form>
+          </div>
+          <!-- /.card -->
+  
+          
+
+        </div>
+
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title">Films
+                <span class="badge badge-success right" id="hits"></span>
+                <span class="badge badge-danger right" id="errors"></span>
+              </h3>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body p-0">
+              <table class="table table-sm">
+                <thead>
+                  <tr>
+                    <th style="width: 10px">#</th>
+                    <th>One</th>
+                    <th>Two</th> 
+                  </tr>
+                </thead>
+                <tbody> 
+                </tbody>
+              </table>
+            </div>
+            <!-- /.card-body -->
+          </div>
+        </div> 
+       </div>
+        <!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="/dist/js/adminlte.min.js"></script>  
+<script src="js/globals.js"></script>
+<script src="/js/game.js"></script>
+</body>
+</html>
